@@ -1,0 +1,82 @@
+.welcomeCss {
+  height: 100vh;
+  display: flex;
+  justify-content: space-between;
+}
+
+.welcomeCss .wlcome {
+  text-overflow: ellipsis;
+  width: 45%;
+  padding: 20px;
+  margin: auto 70px;
+  background: #2b2b2840;
+  box-shadow: 0 8px 32px 0 #2b2b2840;
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+}
+.welcomeCss .welcome {
+  margin: auto;
+  display: flex;
+  width: 50%;
+}
+
+.welcomeCss section p {
+  font-size: 25px;
+  font-weight: 700;
+  text-align: center;
+  color: #0c0b0b;
+}
+.welcomeCss .click {
+  margin: auto;
+  font-size: 30px;
+  padding: 10px;
+  border: 2px solid #2b2b2840;
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+  background-color: #eed849;
+}
+.click span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.click span:after {
+  content: "\00bb";
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+.click:hover span {
+  padding-right: 25px;
+}
+.click:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+.welcomeCss .iconsPages {
+  width: 80%;
+  display: flex;
+  flex-direction: row;
+  margin: auto;
+}
+.welcomeCss .iconsPages a button img {
+  height: 5vh;
+}
+.welcomeCss .iconsPages a button {
+  background: rgba(172, 148, 68, 0.25);
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+}
+
+.welcomeCss .iconsPages a button:hover {
+  background: #5a4f34;
+  box-shadow: 0px 0px 15px #5a4f34;
+}

@@ -1,0 +1,77 @@
+.contactCss {
+  height: 100vh;
+}
+
+.contactCss h2 {
+  font-size: 30px;
+  width: 35%;
+  margin: 25px 100px;
+  border-bottom: 2px solid;
+  color: #2e2e2dd8;
+}
+.contactContenedorCss {
+  margin: auto;
+  width: 70%;
+  background: rgba(43, 43, 40, 0.25);
+  box-shadow: 0 8px 32px 0 #2b2b28a7;
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  padding: 20px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.contactContenedorCss form {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.contactContenedorCss .input {
+  width: 90%;
+  height: 5vh;
+  margin: 10px;
+  outline: none;
+  border: none;
+  padding: 10px;
+  font-size: 20px;
+  border-radius: 10px;
+}
+.inputTxt {
+  width: 90%;
+  height: 40vh;
+  margin: 10px;
+  outline: none;
+  border: none;
+  padding: 10px;
+  border-radius: 10px;
+  font-size: 20px;
+}
+
+.contactCss .btnAnimate {
+  width: 20%;
+  height: 5vh;
+  font-size: 15px;
+  letter-spacing: 2px;
+  margin: 10px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.contactCss section img {
+  height: 5vh;
+}
+
+.contactCss .iconsPages {
+  display: flex;
+  padding: 0;
+  width: 20%;
+}
+
+.contactCss .iconsPages a {
+  width: 100%;
+}

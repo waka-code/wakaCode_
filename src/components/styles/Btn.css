@@ -1,0 +1,48 @@
+/*button*/
+section a .btnAnimate {
+    line-height: 40px;
+    font-size: 18px;
+    text-decoration: none;
+    color: #2b2b28;
+    border: none;
+    letter-spacing: 2px;
+    text-align: center;
+    position: relative;
+    transition: all 0.35s;
+    width: 10vw;
+    height: 7vh;
+    margin: 15px 0;
+    border-radius: 10px;
+    cursor: pointer;
+    background: rgba(43, 43, 40, 0.25);
+    box-shadow: 0 8px 32px 0 #2b2b2840;
+    backdrop-filter: blur(4px);
+    -webkit-backdrop-filter: blur(4px);
+    border: 1px solid rgba(255, 255, 255, 0.18);
+  }
+  
+  section a .btnAnimate span {
+    position: relative;
+    z-index: 2;
+  }
+  
+  section a .btnAnimate:after {
+    position: absolute;
+    content: "";
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 100%;
+    background: #2b2b28;
+    transition: all 0.35s;
+    border-radius: 15px;
+  }
+  
+  section a .btnAnimate:hover {
+    color: #fff;
+  }
+  
+  section a .btnAnimate:hover:after {
+    width: 100%;
+  }
+  

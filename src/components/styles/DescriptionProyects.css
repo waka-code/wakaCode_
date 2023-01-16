@@ -1,0 +1,92 @@
+.proyectsDescriptions {
+  width: 75vw;
+  height: 90vh;
+  display: flex;
+}
+
+.proyectLogo {
+  width: 50vw;
+  height: 70%;
+  margin: 15px;
+}
+
+.proyectsDescriptions .proyectLogo img {
+  height: 100%;
+  border-radius: 10px;
+  width: 100%;
+}
+
+.DescriptionAndSkill {
+  position: relative;
+  z-index: 9999999999;
+  width: 35vw;
+  height: auto;
+  bottom: 12em;
+  left: 28em;
+  text-align: center;
+  padding: 25px;
+  line-height: 25px;
+  background-color: #2b2b28;
+  box-shadow: 0 8px 32px 0 hsla(60, 4%, 16%, 0.363);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+}
+
+.DescriptionAndSkill p {
+  color: #fff;
+}
+
+.DescriptionAndSkill span {
+  color: #eed849;
+  font-size: 25px;
+}
+
+.proyectsDescriptions .DescriptionAndSkill .imgSkill {
+  display: flex;
+  justify-content: space-around;
+  height: auto;
+  width: 5vw;
+  margin: 15px auto;
+  height: 5vh;
+}
+
+.proyectsDescriptions .DescriptionAndSkill .imgSkill img {
+  height: 80%;
+  margin: 5px;
+  width: 100%;
+}
+
+.proyectsDescriptions .routePortfolioCss {
+  height: auto;
+  left: 15rem;
+  top: auto;
+  width: 15vw;
+  position: relative;
+}
+
+.routePortfolioCss .projectsPortfolio {
+  display: flex;
+  height: 30%;
+  align-items: center;
+  margin: 10px 0;
+}
+
+.routePortfolioCss .projectsPortfolio img {
+  height: 100%;
+  width: 100%;
+  margin: 3px 0;
+  border-radius: 15px;
+  box-shadow: 0 8px 32px 0 #141414;
+  transition: all 0.6s ease;
+}
+
+.routePortfolioCss .projectsPortfolio img:hover {
+  transform: scale(0.9);
+} 
+
+.proyectLogo a .btnAnimate {
+  width: 8vw;
+  height: 6vh;
+  font-size: 15px;
+  margin: 10px 15px 0 0;
+}

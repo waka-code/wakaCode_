@@ -1,0 +1,179 @@
+.skillCss {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 50px;
+  height: 100%;
+  padding: 20px;
+  width: 100vw;
+  overflow: hidden;
+}
+
+.routeSkillCss {
+  height: 70%;
+  display: flex;
+  flex-direction: column;
+  line-height: 70px;
+  padding: 10px;
+  background: rgba(43, 43, 40, 0.25);
+  box-shadow: 0 8px 32px 0 #2b2b28a7;
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+}
+
+.routeSkill {
+  font-size: 18px;
+  text-decoration: none;
+  color: #2e2e2d;
+  font-weight: 600;
+  letter-spacing: 3px;
+  padding: 5px;
+  margin: 5px;
+}
+
+.routeSkill:hover {
+  background-color: #2e2e2d;
+  border-radius: 10px;
+  color: #eed74b;
+}
+.skillList ul li {
+  list-style: none;
+}
+.skillList {
+  background: rgba(43, 43, 40, 0.25);
+  box-shadow: 0 8px 32px 0 #2b2b28a7;
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  width: 70vw;
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.skillList .typeSkills {
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  height: 40%;
+  width: 30%;
+  line-height: 30px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  background: #2e2e2de6;
+  border-radius: 10px;
+  padding: 15px;
+  color: #ac9444;
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+}
+
+.skillList .waka {
+  border-radius: 15px;
+  z-index: 999999999;
+  height: 37%;
+  width: 30%;
+  cursor: pointer;
+}
+.skillList .waka:active {
+  height: 95%;
+  width: 97%;
+  box-shadow: 0 8px 32px 0 #2e2e2dab;
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  position: fixed;
+}
+
+.listSkillsAnimete {
+  width: 65%;
+  top: 0;
+  height: 100%;
+  padding-top: 30%;
+  position: absolute;
+  right: 0;
+  overflow: hidden;
+}
+.killsAnimete {
+  position: relative;
+  transform-style: preserve-3d;
+  animation-name: rotate;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+  animation-duration: 12s;
+  transform-origin: 100px 100px 0;
+  margin-left: calc(50% - 100px);
+}
+
+.box {
+  position: absolute;
+  z-index: 99999999999;
+  width: 350px;
+  height: 300px;
+  text-align: center;
+  transition: all 0.2s ease;
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  box-shadow: 0 8px 32px 0 #2e2e2d;
+  background: rgba(238, 216, 73, 0.25);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+}
+
+.box img {
+  height: 6vh;
+  margin: 5px;
+}
+
+#box-front {
+  transform: translateX(-200px) translateY(-200px) translateZ(-200px)
+    rotateY(180deg);
+}
+
+#box-back {
+  transform: translateX(-200px) translateY(-200px) translateZ(200px);
+}
+
+#box-right {
+  transform: translateY(-200px) rotateY(90deg);
+}
+
+#box-left {
+  transform: translateY(-200px) translateX(-400px) rotateY(270deg);
+}
+
+#box-top {
+  transform: translateX(-200px) translateY(-400px) rotateX(90deg);
+}
+
+#box-bottom {
+  transform: translateX(-200px) rotateX(90deg);
+}
+
+.killsAnimete {
+  transform: rotateX(90deg) rotateY(90deg);
+}
+
+@keyframes rotate {
+  from,
+  to {
+    transform: rotateX(0deg) rotateY(0deg) rotateZ(0deg);
+  }
+  16% {
+    transform: rotateY(-90deg) rotateZ(90deg);
+  }
+  33% {
+    transform: rotateY(-90deg) rotateX(90deg);
+  }
+  50% {
+    transform: rotateY(-180deg) rotateZ(90deg);
+  }
+  66% {
+    transform: rotateY(-270deg) rotateX(90deg);
+  }
+  83% {
+    transform: rotateX(90deg);
+  }
+}
