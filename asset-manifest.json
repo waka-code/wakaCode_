@@ -1,0 +1,36 @@
+{
+  "files": {
+    "main.css": "/wakaCode_/static/css/main.0bdaa381.css",
+    "main.js": "/wakaCode_/static/js/main.c3dc91bf.js",
+    "static/media/astronaut.gif": "/wakaCode_/static/media/astronaut.dc8a10d41fed7b1b8f40.gif",
+    "static/media/henry.png": "/wakaCode_/static/media/henry.e2f4878c686dc5dd6f20.png",
+    "static/media/pokemon.jpeg": "/wakaCode_/static/media/pokemon.b01f46fce1645c2c1dd4.jpeg",
+    "static/media/wakatime.png": "/wakaCode_/static/media/wakatime.80bd10b5f1abfa83b9ca.png",
+    "static/media/js.png": "/wakaCode_/static/media/js.697b88ad1b46cb8197eb.png",
+    "static/media/rick.webp": "/wakaCode_/static/media/rick.c97380e04ff2e70cd4b1.webp",
+    "static/media/in.png": "/wakaCode_/static/media/in.cf4421e6795e9f4f8953.png",
+    "static/media/wlcome.gif": "/wakaCode_/static/media/wlcome.cdd6dd6eeeff530362d2.gif",
+    "static/media/firstPortfolio.png": "/wakaCode_/static/media/firstPortfolio.33ef1389cdbb4e3a414f.png",
+    "static/media/html.png": "/wakaCode_/static/media/html.e31e3dab62fe9ab1a93c.png",
+    "static/media/en.png": "/wakaCode_/static/media/en.b1244e4c3a9d6630a549.png",
+    "static/media/rd.png": "/wakaCode_/static/media/rd.23ff78a6c8c010b8e0c1.png",
+    "static/media/st.png": "/wakaCode_/static/media/st.17810e43c19ac085fc87.png",
+    "static/media/ws.png": "/wakaCode_/static/media/ws.fe8558b34ff4afd6f8bc.png",
+    "static/media/cr.png": "/wakaCode_/static/media/cr.44b530347902e4cb9dda.png",
+    "static/media/jscript.png": "/wakaCode_/static/media/jscript.7f8751632b42a9932c15.png",
+    "static/media/sql.png": "/wakaCode_/static/media/sql.1799ab1369fa62645cd0.png",
+    "static/media/git.png": "/wakaCode_/static/media/git.5f4698d415a81230ec42.png",
+    "static/media/ln.png": "/wakaCode_/static/media/ln.4c9c4b9b0b321d67203b.png",
+    "static/media/fb.png": "/wakaCode_/static/media/fb.6a842b3c9a9dda766c95.png",
+    "static/media/react.png": "/wakaCode_/static/media/react.b3d4bfe36163bffb350b.png",
+    "static/media/bt.png": "/wakaCode_/static/media/bt.a6aa5de3b789199b5116.png",
+    "static/media/ex.png": "/wakaCode_/static/media/ex.ec0dbeb38d2d5111ff3b.png",
+    "index.html": "/wakaCode_/index.html",
+    "main.0bdaa381.css.map": "/wakaCode_/static/css/main.0bdaa381.css.map",
+    "main.c3dc91bf.js.map": "/wakaCode_/static/js/main.c3dc91bf.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0bdaa381.css",
+    "static/js/main.c3dc91bf.js"
+  ]
+}
