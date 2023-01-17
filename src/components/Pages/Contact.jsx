@@ -5,7 +5,7 @@ import ws from "../../img/ws.png";
 import ins from "../../img/in.png";
 
 //json
-import des from "../description/desciption.json";
+import Url from "../description/Url.json";
 
 //css
 import "../styles/Contact.css";
@@ -19,9 +19,9 @@ function Contact({ t }) {
       <section className="contactContenedorCss" data-aos="zoom-in-down">
         <ConfigEmail  />
         <IconsSocial
-          pageSocial={des.fb}
-          pageSocial1={des.ws}
-          pageSocial2={des.ins}
+          pageSocial={Url.fb}
+          pageSocial1={Url.ws}
+          pageSocial2={Url.ins}
           social={fb}
           socials={ws}
           socialss={ins}

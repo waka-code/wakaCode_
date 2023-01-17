@@ -3,7 +3,7 @@ import TypeWriterEffect from "react-typewriter-effect";
 import "../styles/Home.css";
 
 //json
-import des from "../description/desciption.json";
+import Url from "../description/Url.json";
 
 //react route
 import IconsSocial from "./IconsSocial";
@@ -43,9 +43,9 @@ function Home({ t }) {
         </h2>
       </section>
       <IconsSocial
-        pageSocial={des.linkedin}
-        pageSocial1={des.stackOverflow}
-        pageSocial2={des.github}
+        pageSocial={Url.linkedin}
+        pageSocial1={Url.stackOverflow}
+        pageSocial2={Url.github}
         social={ln}
         socials={st}
         socialss={git}

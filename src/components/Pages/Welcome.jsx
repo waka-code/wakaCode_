@@ -2,7 +2,7 @@ import React from "react";
 import { NavLink } from "react-router-dom";
 
 //json and routePages
-import des from "../description/desciption.json";
+import Url from "../description/Url.json";
 import IconsSocial from "./IconsSocial";
 
 //img and css
@@ -29,9 +29,9 @@ function Welcome({ t }) {
           <FaLaptopCode />
         </p>
         <IconsSocial
-          pageSocial={des.fb}
-          pageSocial1={des.ws}
-          pageSocial2={des.ins}
+          pageSocial={Url.fb}
+          pageSocial1={Url.ws}
+          pageSocial2={Url.ins}
           social={fb}
           socials={ws}
           socialss={ins}

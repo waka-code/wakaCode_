@@ -1,7 +1,7 @@
 import React from "react";
 
 //json
-import des from "../description/desciption.json";
+import Url from "../description/Url.json";
 
 //css
 import "../styles/About.css";
@@ -15,7 +15,7 @@ function About({ t }) {
     <div className="aboutCss" data-aos="fade-right">
       <section data-aos="fade-down-left">
         <p>{t("presentations")}</p>
-        <a href={des.cv} target="_blank" useRef="noopener noreferrer">
+        <a href={Url.cv} target="_blank" useRef="noopener noreferrer">
           <Button btn={t("currículum")} />
         </a>
       </section>

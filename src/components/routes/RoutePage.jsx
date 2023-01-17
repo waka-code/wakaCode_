@@ -11,7 +11,7 @@ import html from "../../img/html.png";
 import jscript from "../../img/jscript.png";
 import firstPortfolio from "../../img/firstPortfolio.png";
 //json
-import des from "../description/desciption.json";
+import Url from "../description/Url.json";
 //Routes
 import About from "../Pages/About";
 import Home from "../Pages/Home";
@@ -24,7 +24,7 @@ function RoutePage({ t }) {
   return (
     <>
       <Routes>
-        <Route path="/" element={<Welcome t={t} />} />
+        <Route path="/wakaCode_" element={<Welcome t={t} />} />
         <Route path="/home" element={<Home t={t} />} />
         <Route path="/about" element={<About t={t} />} />
 
@@ -33,9 +33,9 @@ function RoutePage({ t }) {
           element={
             <DescriptionProyects
               img={rick}
-              repositorio={des.repositoryRick}
+              repositorio={Url.repositoryRick}
               description={t("rick")}
-              pages={des.pageRick}
+              pages={Url.pageRick}
               react={react}
               axios={styled}
               alt={"proyect"}
@@ -49,9 +49,9 @@ function RoutePage({ t }) {
           element={
             <DescriptionProyects
               img={rick}
-              repositorio={des.repositoryRick}
+              repositorio={Url.repositoryRick}
               description={t("rick")}
-              pages={des.pageRick}
+              pages={Url.pageRick}
               react={react}
               axios={styled}
               alt={"proyect"}
@@ -64,9 +64,9 @@ function RoutePage({ t }) {
           element={
             <DescriptionProyects
               img={firstPortfolio}
-              repositorio={des.repositoryCrud}
+              repositorio={Url.repositoryCrud}
               description={t("crud")}
-              pages={des.pageCrud}
+              pages={Url.pageCrud}
               react={html}
               axios={jscript}
               alt={"proyect"}
@@ -79,9 +79,9 @@ function RoutePage({ t }) {
           element={
             <DescriptionProyects
               img={pokemon}
-              repositorio={des.repositoryPokemon}
+              repositorio={Url.repositoryPokemon}
               description={t("pokemon")}
-              pages={des.pagePokemon}
+              pages={Url.pagePokemon}
               react={react}
               axios={axios}
               alt={"proyect"}
