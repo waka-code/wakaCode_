@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/wakaCode_/static/css/main.0bdaa381.css",
-    "main.js": "/wakaCode_/static/js/main.b6d043ad.js",
+    "main.css": "/wakaCode_/static/css/main.c62337bd.css",
+    "main.js": "/wakaCode_/static/js/main.457b470f.js",
     "static/media/astronaut.gif": "/wakaCode_/static/media/astronaut.dc8a10d41fed7b1b8f40.gif",
     "static/media/henry.png": "/wakaCode_/static/media/henry.e2f4878c686dc5dd6f20.png",
     "static/media/pokemon.jpeg": "/wakaCode_/static/media/pokemon.b01f46fce1645c2c1dd4.jpeg",
@@ -11,6 +11,7 @@
     "static/media/in.png": "/wakaCode_/static/media/in.cf4421e6795e9f4f8953.png",
     "static/media/wlcome.gif": "/wakaCode_/static/media/wlcome.cdd6dd6eeeff530362d2.gif",
     "static/media/firstPortfolio.png": "/wakaCode_/static/media/firstPortfolio.33ef1389cdbb4e3a414f.png",
+    "static/media/espana.png": "/wakaCode_/static/media/espana.c1863924882995598960.png",
     "static/media/html.png": "/wakaCode_/static/media/html.e31e3dab62fe9ab1a93c.png",
     "static/media/en.png": "/wakaCode_/static/media/en.b1244e4c3a9d6630a549.png",
     "static/media/rd.png": "/wakaCode_/static/media/rd.23ff78a6c8c010b8e0c1.png",
@@ -26,11 +27,11 @@
     "static/media/bt.png": "/wakaCode_/static/media/bt.a6aa5de3b789199b5116.png",
     "static/media/ex.png": "/wakaCode_/static/media/ex.ec0dbeb38d2d5111ff3b.png",
     "index.html": "/wakaCode_/index.html",
-    "main.0bdaa381.css.map": "/wakaCode_/static/css/main.0bdaa381.css.map",
-    "main.b6d043ad.js.map": "/wakaCode_/static/js/main.b6d043ad.js.map"
+    "main.c62337bd.css.map": "/wakaCode_/static/css/main.c62337bd.css.map",
+    "main.457b470f.js.map": "/wakaCode_/static/js/main.457b470f.js.map"
   },
   "entrypoints": [
-    "static/css/main.0bdaa381.css",
-    "static/js/main.b6d043ad.js"
+    "static/css/main.c62337bd.css",
+    "static/js/main.457b470f.js"
   ]
 }
