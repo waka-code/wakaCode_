@@ -45,17 +45,16 @@
 }
 
 .routeCss nav {
-  width: 40vw;
+  width: 50vw;
   font-size: 15px;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
   cursor: pointer;
+  text-align: center;
 }
 .linkCss {
   text-decoration: none;
   color: #8e8437;
   font-weight: 700;
+  margin:0 25px;
 }
 
 .linkCss:hover {

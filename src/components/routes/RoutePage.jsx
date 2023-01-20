@@ -24,6 +24,7 @@ function RoutePage({ t }) {
   return (
     <>
       <Routes>
+        <Route path="/" element={<Welcome t={t} />} />
         <Route path="/wakaCode_" element={<Welcome t={t} />} />
         <Route path="/home" element={<Home t={t} />} />
         <Route path="/about" element={<About t={t} />} />

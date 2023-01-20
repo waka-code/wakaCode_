@@ -2,13 +2,13 @@ import React from "react";
 import { NavLink } from "react-router-dom";
 
 //img
-import es from "../../img/rd.png";
+import es from "../../img/espana.png";
 import en from "../../img/en.png";
 
 function RouterNav({ t, handleChangeLng }) {
   return (
     <div className="routeCss">
-      <h1>wakaCode..</h1>
+      <h1>wakaCode...</h1>
       <nav>
         <NavLink className="linkCss linkCssA" to="/home">
           {t("Home")}
@@ -31,6 +31,7 @@ function RouterNav({ t, handleChangeLng }) {
         <img src={en} onClick={() => handleChangeLng("en")} />
       </div>
     </div>
+    
   );
 }
 

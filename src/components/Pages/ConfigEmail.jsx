@@ -9,7 +9,7 @@ import { success, warning } from "./ConfigToastify";
 function ConfigEmail() {
   const { t } = useTranslation();
   const form = useRef();
-  const [name, setName] = useState("name");
+  const [name, setName] = useState("Name");
   const [email, setEmail] = useState("Email");
   const [text, setText] = useState("");
 
