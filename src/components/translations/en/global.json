@@ -15,7 +15,7 @@
   "currículum":"Resume",
   "rick": "Rick and Morty is an application where you can search for information about each character in the vast multiverse of this hit animated comedy series. It follows a genius sociopathic scientist who drags his inherently shy grandson on extremely dangerous adventures across the universe.",
   "pokemon": "This is an app where you can search the data of your favorite pokemons and see their stats and talk about them. It is a Japanese media franchise managed by wakaCode. In Pokémon, Pokémon Trainers are people who catch, train, care for, and battle Pokémon. So cheer up to be a Pokemon Trainer",
-  "crud": "First portfolio of projects, I made a landing page with a dark theme.",
+  "crud": "First portfolio of projects, I made a landing page with a dark theme, it is made with the following technologies html css and js, at the time of creation I also used some libraries.",
   "name":"name",
   "Send":"Send",
   "Contacto":"CONTACT US",
@@ -25,5 +25,6 @@
   "tools":"TOOLS",
   "softskills":"SOFTSKILLS",
   "Click Here":"Click Here",
-  "Software Engineer":"Software Engineer"
+  "Software Engineer":"Software Engineer",
+  "examen":"Landing Page about pharmaceutical products, carry out this project {keep anonymous}, I put it here as proof of said project, it was a translation of a PS file, it is made in html and css."
 }

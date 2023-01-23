@@ -84,7 +84,7 @@ function RoutePage({ t }) {
             <DescriptionProyects
               img={examen}
               repositorio={Url.repositoryHomePage}
-              description={t("crud")}
+              description={t("examen")}
               pages={Url.pageHomePage}
               react={html5}
               axios={css}

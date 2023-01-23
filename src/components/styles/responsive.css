@@ -313,6 +313,9 @@
   }
   /*contact*/
 
+  .contactCss{
+    overflow: auto;
+  }
   .contactCss #btnAnimate {
     width: 95%;
   }
@@ -351,20 +354,20 @@
   #skillCss {
     display: flex;
     flex-direction: column;
-    overflow: none;
   }
   #skillList .waka {
     display: none;
   }
-  .skillCss .routeSkillCss {
+  #skillCss .routeSkillCss {
     height: auto;
     line-height: 30px;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    overflow: hidden;
+    height: 25%;
   }
-  .skillCss .routeSkill {
+  #routeSkill {
     font-size: 15px;
+    height: 6vh;
   }
   #skillList {
     display: block;

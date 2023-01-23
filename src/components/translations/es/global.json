@@ -15,7 +15,7 @@
   "currículum": "Currículum",
   "rick": "Rick and Morty es una aplicación donde puedes buscar información sobre cada personaje en el vasto multiverso de esta exitosa serie de comedia animada. Sigue a un genio científico sociópata que arrastra a su nieto inherentemente tímido a aventuras extremadamente peligrosas en todo el universo.",
   "pokemon": "Esta es una aplicación donde puedes buscar los datos de tus pokemons favoritos y ver sus estadísticas y hablar sobre ellos. Es una franquicia de medios japonesa administrada por wakaCode. En Pokémon, los Entrenadores Pokémon son personas que atrapan, entrenan, cuidan y luchan contra Pokémon. Así que anímate a ser Entrenador Pokémon",
-  "crud": "Primer portafolio de proyectos, hice un landing page con una tematica dark.",
+  "crud": "Primer portafolio de proyectos, hice una landing page con un tema oscuro, está realizado con las siguientes tecnologías html css y js, al momento de la creación también utilicé algunas librerías.",
   "name": "Nombre",
   "Send": "Enviar",
   "Contacto": "CONTACTA CON NOSOTROS",
@@ -25,5 +25,6 @@
   "frontend":"INTERFAZ",
   "backend":"BACKEND",
   "tools":"HERRAMIENTAS",
-  "softskills":"HABILIDADES BLANDAS"
+  "softskills":"HABILIDADES BLANDAS",
+  "examen":"Landing Page acerca de productos farmaceuticos, realiza este proyecto {mantener en ela nonimato}, lo coloco aca como prueba de dicho proyecto fue una traduccion de un archibo PS, esta realizado en html y css."
 }
