@@ -1,8 +1,10 @@
 {
   "files": {
-    "main.css": "/wakaCode_/static/css/main.c62337bd.css",
-    "main.js": "/wakaCode_/static/js/main.457b470f.js",
+    "main.css": "/wakaCode_/static/css/main.f2f1cff2.css",
+    "main.js": "/wakaCode_/static/js/main.598a0cd2.js",
     "static/media/astronaut.gif": "/wakaCode_/static/media/astronaut.dc8a10d41fed7b1b8f40.gif",
+    "static/media/jsPhone.png": "/wakaCode_/static/media/jsPhone.07a73a3bc900d3720fe6.png",
+    "static/media/examen.png": "/wakaCode_/static/media/examen.c198b82a80e3c74838ef.png",
     "static/media/henry.png": "/wakaCode_/static/media/henry.e2f4878c686dc5dd6f20.png",
     "static/media/pokemon.jpeg": "/wakaCode_/static/media/pokemon.b01f46fce1645c2c1dd4.jpeg",
     "static/media/wakatime.png": "/wakaCode_/static/media/wakatime.80bd10b5f1abfa83b9ca.png",
@@ -27,11 +29,11 @@
     "static/media/bt.png": "/wakaCode_/static/media/bt.a6aa5de3b789199b5116.png",
     "static/media/ex.png": "/wakaCode_/static/media/ex.ec0dbeb38d2d5111ff3b.png",
     "index.html": "/wakaCode_/index.html",
-    "main.c62337bd.css.map": "/wakaCode_/static/css/main.c62337bd.css.map",
-    "main.457b470f.js.map": "/wakaCode_/static/js/main.457b470f.js.map"
+    "main.f2f1cff2.css.map": "/wakaCode_/static/css/main.f2f1cff2.css.map",
+    "main.598a0cd2.js.map": "/wakaCode_/static/js/main.598a0cd2.js.map"
   },
   "entrypoints": [
-    "static/css/main.c62337bd.css",
-    "static/js/main.457b470f.js"
+    "static/css/main.f2f1cff2.css",
+    "static/js/main.598a0cd2.js"
   ]
 }
