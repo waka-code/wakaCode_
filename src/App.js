@@ -1,4 +1,5 @@
 import "./App.css";
+import "./components/styles/responsive.css";
 import { BrowserRouter } from "react-router-dom";
 import RouterNav from "./components/routes/RouterNav";
 import RoutePages from "./components/routes/RoutePage";

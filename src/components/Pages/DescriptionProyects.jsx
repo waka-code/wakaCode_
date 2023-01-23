@@ -21,7 +21,7 @@ function DescriptionProyects(props) {
               <Button btn={"Page"} />
             </a>
           </section>
-          <section className="DescriptionAndSkill" data-aos="zoom-in">
+          <section className="DescriptionAndSkill" id="DescriptionAndSkill" data-aos="zoom-in">
             <p>{props.description}</p>
             <span>Used tools</span>
             <section className="imgSkill">

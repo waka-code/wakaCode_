@@ -6,11 +6,11 @@ import Box from "./Box";
 
 function Skills(props) {
   return (
-    <div className="skillCss">
+    <div className="skillCss" id="skillCss">
       <section className="routeSkillCss" data-aos="fade-down-right">
         <RouteSkill />
       </section>
-      <section className="skillList">
+      <section className="skillList" id="skillList">
         <ul className="typeSkills" data-aos="zoom-in">
           <li>{props.HTML}</li>
           <li>{props.CSS}</li>

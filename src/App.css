@@ -5,6 +5,10 @@
   user-select: none;
   -webkit-user-select: none;
 }
+::-webkit-scrollbar {
+  display: none;
+}
+
 .App {
   background-image: url(./img/js.png);
   background-repeat: no-repeat;
@@ -70,4 +74,18 @@
 #languaje img {
   height: 3vh;
   cursor: pointer;
+}
+
+@media(max-width:500px){
+  .App {
+    background-image: url(./img/jsPhone.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 100vh;
+    width: 100vw;
+  }
+
+  
 }

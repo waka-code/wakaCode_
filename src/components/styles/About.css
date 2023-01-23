@@ -14,7 +14,6 @@
   width: auto;
   height: 100%;
   font-size: 27px;
-
   background: rgba(43, 43, 40, 0.818);
   box-shadow: 0 8px 32px 0 #2b2b28c9;
   backdrop-filter: blur(4px);
@@ -35,7 +34,6 @@
   right: 35px;
   width: 15vw;
   height: 45vh;
-  border-radius: 10px;
   cursor: pointer;
 }
 

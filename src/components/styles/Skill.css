@@ -9,7 +9,7 @@
 }
 
 .routeSkillCss {
-  height: 70%;
+  height: auto;
   display: flex;
   flex-direction: column;
   line-height: 70px;
@@ -20,6 +20,8 @@
   -webkit-backdrop-filter: blur(4px);
   border-radius: 10px;
   border: 1px solid rgba(255, 255, 255, 0.18);
+  overflow: auto;
+
 }
 
 .routeSkill {
@@ -52,6 +54,7 @@
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+
 }
 
 .skillList .typeSkills {
@@ -67,6 +70,7 @@
   color: #ac9444;
   backdrop-filter: blur(4px);
   -webkit-backdrop-filter: blur(4px);
+  overflow: auto;
 }
 
 .skillList .waka {

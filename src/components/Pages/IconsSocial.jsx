@@ -3,7 +3,7 @@ import React from "react";
 
 function IconsSocial(props) {
   return (
-    <section className="iconsPages">
+    <section className="iconsPages" id="iconsPages">
       <a
         href={props.pageSocial}
         target="_blank"

@@ -8,16 +8,16 @@ function RouteSkill() {
 
   return (
     <>
-      <NavLink className="routeSkill" to="/skills/fron">
+      <NavLink className="routeSkill" id="routeSkill" to="/skills/fron">
         {t("frontend")}
       </NavLink>
-      <NavLink className="routeSkill" to="/skills/back">
+      <NavLink className="routeSkill" id="routeSkill" to="/skills/back">
       {t("backend")}
       </NavLink>
-      <NavLink className="routeSkill" to="/skills/tools">
+      <NavLink className="routeSkill" id="routeSkill" to="/skills/tools">
       {t("tools")}
       </NavLink>
-      <NavLink className="routeSkill" to="/skills/soft">
+      <NavLink className="routeSkill" id="routeSkill" to="/skills/soft">
       {t("softskills")}
       </NavLink>
     </>

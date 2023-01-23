@@ -13,20 +13,20 @@ import Button from "./Button";
 function About({ t }) {
   return (
     <div className="aboutCss" data-aos="fade-right">
-      <section data-aos="fade-down-left">
-        <p>{t("presentations")}</p>
+      <section data-aos="fade-down-left" id="boxAbout">
+        <p id="aboutMe">{t("presentations")}</p>
         <a href={Url.cv} target="_blank" useRef="noopener noreferrer">
           <Button btn={t("currículum")} />
         </a>
       </section>
-      <section className="aboutImg" data-aos="flip-left">
+      <section className="aboutImg" id="aboutImg" data-aos="flip-left">
         <section className="imgBox">
           <section className="boxImg">
             <img src={henry} alt="henry" />
           </section>
         </section>
         <section className="aboutContent">
-          <div>
+          <div className="textAbout">
             <h2>Waddimi Saint Louis</h2>
             <br />
             <span>{t("Software Engineer")}</span>

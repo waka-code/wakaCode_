@@ -3,11 +3,11 @@ import { NavLink } from "react-router-dom";
 import rick from "../../img/rick.webp";
 import pokemon from "../../img/pokemon.jpeg";
 import firstPortfolio from "../../img/firstPortfolio.png";
-
+import homepage from "../../img/examen.png";
 
 function RoutePortfolio() {
   return (
-    <div className="routePortfolioCss" data-aos="zoom-in">
+    <div className="routePortfolioCss" id="routePortfolioCss" data-aos="zoom-in">
       <NavLink to="/portfolio/rick" className="projectsPortfolio">
         <img src={rick} alt="projects" />
       </NavLink>
@@ -16,6 +16,9 @@ function RoutePortfolio() {
       </NavLink>
       <NavLink to="/portfolio/firstPortfolio" className="projectsPortfolio">
         <img src={firstPortfolio} alt="projects" />
+      </NavLink>
+      <NavLink to="/portfolio/homePage" className="projectsPortfolio">
+        <img src={homepage} alt="projects" />
       </NavLink>
     </div>
   );

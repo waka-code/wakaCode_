@@ -10,6 +10,9 @@ import axios from "../../img/axios.png";
 import html from "../../img/html.png";
 import jscript from "../../img/jscript.png";
 import firstPortfolio from "../../img/firstPortfolio.png";
+import css from "../../img/iconSkills/css.png";
+import html5 from "../../img/iconSkills/html.png";
+import examen from "../../img/examen.png"
 //json
 import Url from "../description/Url.json";
 //Routes
@@ -70,6 +73,21 @@ function RoutePage({ t }) {
               pages={Url.pageCrud}
               react={html}
               axios={jscript}
+              alt={"proyect"}
+            />
+          }
+        />
+        
+        <Route
+          path="portfolio/homePage"
+          element={
+            <DescriptionProyects
+              img={examen}
+              repositorio={Url.repositoryHomePage}
+              description={t("crud")}
+              pages={Url.pageHomePage}
+              react={html5}
+              axios={css}
               alt={"proyect"}
             />
           }

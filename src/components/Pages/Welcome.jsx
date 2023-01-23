@@ -22,6 +22,7 @@ function Welcome({ t }) {
         className="wlcome"
         data-aos="fade-up"
         data-aos-anchor-placement="top-bottom"
+        id="wlcome"
       >
         <img src={welcome} alt="welcome" className="welcome" />
         <p>
@@ -37,7 +38,7 @@ function Welcome({ t }) {
           socialss={ins}
         />
       </section>
-      <NavLink className="click" to="/Home">
+      <NavLink className="click" to="/Home" id="click">
         <span>{t("Click Here")}</span>
       </NavLink>
     </div>

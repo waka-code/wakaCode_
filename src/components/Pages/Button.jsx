@@ -4,7 +4,7 @@ import "../styles/Btn.css";
 function Button(props) {
   return (
     <>
-      <button className="btnAnimate">
+      <button className="btnAnimate" id="btnAnimate">
         <span>{props.btn}</span>
       </button>
     </>

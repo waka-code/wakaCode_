@@ -1,0 +1,411 @@
+@media only screen and (min-width: 2000px) {
+  /*Home*/
+  #welcomePage {
+    height: 40vh;
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  /*about*/
+  #boxAbout p {
+    width: 90%;
+    height: 80%;
+  }
+  #aboutImg {
+    bottom: 70px;
+    right: 100px;
+    width: 18vw;
+  }
+  #aboutImg:hover .aboutContent {
+    transform: translate(5rem, 4rem);
+  }
+  #aboutImg .aboutContent div {
+    top: 27rem;
+    font-size: 20px;
+  }
+  /*portafolio*/
+  #DescriptionAndSkill {
+    left: 48em;
+    bottom: 8em;
+  }
+  #routePortfolioCss {
+    left: 35rem;
+  }
+  #routePortfolioCss .projectsPortfolio {
+    margin: 20px 0;
+  }
+  /*skill*/
+  .listSkillsAnimete .box img {
+    height: 4vh;
+  }
+  #skillCss .routeSkillCss {
+    height: 40%;
+  }
+  /*contact*/
+  .contactCss #contactH2 {
+    margin: 5% 0 2% 100px;
+  }
+}
+
+@media only screen and (min-width: 1350px) and (max-width: 2000px) {
+  /*Home*/
+  #welcomePage {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 40vh;
+  }
+  /*About*/
+  #aboutImg .aboutContent div {
+    font-size: 14px;
+  }
+  #aboutImg {
+    width: 18vw;
+    height: 45vh;
+  }
+
+  /*skill*/
+  #skillCss .routeSkillCss {
+    height: 40%;
+  }
+  #skillCss .typeSkills {
+    grid-template-columns: repeat(1, 1fr);
+    height: 30%;
+  }
+  /*contact*/
+  .contactCss #contactH2 {
+    margin: 5% 0 2% 100px;
+  }
+}
+
+@media (max-width: 1350px) {
+  /*About*/
+  .aboutCss .aboutContent .textAbout {
+    top: 13rem;
+  }
+  .aboutCss .aboutContent .textAbout h2 {
+    font-size: 16px;
+  }
+  #aboutImg .aboutContent div {
+    display: flex;
+  }
+  /*home*/
+  #welcomePage {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 50vh;
+  }
+  /*home*/
+  #skillCss .routeSkillCss {
+    height: 50%;
+  }
+  #skillCss .typeSkills {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
+
+@media (max-width: 1200px) {
+  /*welcome*/
+  #wlcome {
+    width: 55%;
+  }
+  #wlcome #iconsPages {
+    padding: 10px;
+    width: 100%;
+  }
+  .welcomeCss .iconsPages a button {
+    width: 100%;
+  }
+  /*homeCss*/
+  #welcomePage {
+    width: 65%;
+  }
+
+  .homeCss .iconsPages {
+    width: 30%;
+  }
+  .homeCss .iconsPages a {
+    width: 80%;
+  }
+  /*About*/
+  #boxAbout{
+    width: 90%;
+  }
+  #aboutImg {
+    display: none;
+  }
+  #boxAbout p {
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+  }
+  #boxAbout
+  #btnAnimate{
+    width: 30%;
+  }
+
+  /*portafolio*/
+  .proyectsDescriptions .proyectLogo {
+    width: 60vw;
+  }
+  .proyectsDescriptions .DescriptionAndSkill {
+    width: 40vw;
+    left: 20em;
+  }
+  #routePortfolioCss {
+    left: 7rem;
+    top: auto;
+    width: 25%;
+  }
+  .proyectsDescriptions #btnAnimate {
+    width: 12vw;
+  }
+  /*skill*/
+  .skillCss .skillList .typeSkills li {
+    font-size: 13px;
+  }
+  /*contact*/
+  #contactH2 {
+    width: 50%;
+  }
+}
+
+@media (max-width: 1000px) {
+  /*welcome*/
+  #click {
+    font-size: 30px;
+  }
+  /*About*/
+  .aboutCss #btnAnimate {
+    width: 40%;
+  }
+  #boxAbout {
+    width: 65vw;
+  }
+  /*portafolio*/
+  .proyectsDescriptions .DescriptionAndSkill {
+    display: none;
+  }
+  #routePortfolioCss {
+    width: 30vw;
+    left: 0rem;
+  }
+  .proyectsDescriptions #btnAnimate {
+    width: 100%;
+  }
+  .proyectsDescriptions .proyectLogo {
+    height: 70vh;
+  }
+  /*skill*/
+  #skillList {
+    justify-content: space-around;
+    align-items: center;
+    width: 50vw;
+  }
+  #skillList .typeSkills {
+    height: 40%;
+    width: 100%;
+  }
+  #skillList .waka {
+    height: 50%;
+    width: 100%;
+  }
+  .listSkillsAnimete {
+    display: none;
+  }
+}
+
+@media (max-width: 900px) {
+  /*welcome*/
+  .welcomeCss {
+    flex-direction: column-reverse;
+    align-items: center;
+  }
+  #wlcome {
+    width: 75%;
+  }
+  /*home*/
+  #welcomePage {
+    width: 100%;
+    height: 45vh;
+    align-items: center;
+  }
+  #welcomePage h3 {
+    color: #000;
+  }
+
+  .homeCss #welcomePage h2 {
+    color: #000;
+  }
+
+  .homeCss {
+    flex-direction: column;
+    justify-content: space-evenly;
+  }
+  .homeCss .iconsPages {
+    flex-direction: row;
+    width: 100%;
+  }
+  /*contact*/
+  
+  #boxAbout{
+    width: 90%;
+  }
+  /*contact*/
+  .contactCss .contactContenedorCss {
+    width: 90%;
+  }
+  #contactH2 {
+    width: 60%;
+  }
+}
+
+@media (max-width: 700px) {
+  /*welcome*/
+  #wlcome {
+    width: 95%;
+  }
+  /*home*/
+  #welcomePage {
+    width: 90%;
+  }
+  .homeCss .iconsPages {
+    width: 90%;
+  }
+  #welcomePage h3 {
+    font-size: 3.5em;
+  }
+  #welcomePage h2 {
+    font-size: 1.2em;
+  }
+  
+  /*portafolio*/
+  #routePortfolioCss {
+    width: 100%;
+    position: absolute;
+    align-items: center;
+    height: 70%;
+    top: 25rem;
+    overflow: auto;
+  }
+
+  .proyectsDescriptions {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+  }
+  #routePortfolioCss img {
+    margin: auto;
+    width: 50%;
+  }
+
+  .proyectsDescriptions #btnAnimate {
+    height: auto;
+    color: rgb(0, 0, 0);
+    z-index: 999;
+  }
+
+  .proyectsDescriptions .proyectLogo {
+    height: 30%;
+  }
+  /*contact*/
+
+  .contactCss #btnAnimate {
+    width: 95%;
+  }
+  .contactCss #iconsPages {
+    display: none;
+  }
+  #contactContenedorCss form {
+    width: 100%;
+  }
+  #contactContenedorCss form input {
+    width: 95%;
+  }
+  #contactContenedorCss form textarea {
+    width: 95%;
+  }
+}
+
+@media (max-width: 600px) {
+  /*home*/
+  .homeCss {
+    height: auto;
+  }
+  #welcomePage {
+    width: 100%;
+  }
+  .homeCss .iconsPages {
+    width: 100%;
+  }
+  #welcomePage h3 {
+    font-size: 3em;
+  }
+  #welcomePage h2 {
+    font-size: 1em;
+  }
+  /*skill*/
+  #skillCss {
+    display: flex;
+    flex-direction: column;
+    overflow: none;
+  }
+  #skillList .waka {
+    display: none;
+  }
+  .skillCss .routeSkillCss {
+    height: auto;
+    line-height: 30px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    overflow: hidden;
+  }
+  .skillCss .routeSkill {
+    font-size: 15px;
+  }
+  #skillList {
+    display: block;
+    height: 80%;
+    width: 100%;
+  }
+  #skillList .typeSkills {
+    height: 100%;
+    text-align: center;
+    font-size: 20px;
+  }
+  #routeSkill {
+    color: #000000;
+  }
+  #routeSkill:hover {
+    color: #ffffff;
+  }
+  /*contact*/
+  .contactCss .contactContenedorCss {
+    width: 90%;
+  }
+  .contactCss #iconsPages {
+    display: none;
+  }
+  .contactCss #contactH2 {
+    width: 55%;
+    margin: 25px 50px;
+  }
+  /*portafolio*/
+  #routePortfolioCss {
+    top: 20rem;
+  }
+}
+
+@media (max-width: 500px) {
+  /*welcome*/
+  #wlcome {
+    width: 95%;
+    height: auto;
+  }
+  #wlcome p {
+    font-size: 20px;
+  }
+}

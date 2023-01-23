@@ -15,8 +15,8 @@ import ConfigToastify from "./ConfigToastify";
 function Contact({ t }) {
   return (
     <div className="contactCss">
-      <h2 data-aos="fade-right">{t("Contacto")}</h2>
-      <section className="contactContenedorCss" data-aos="zoom-in-down">
+      <h2 data-aos="fade-right" id="contactH2">{t("Contacto")}</h2>
+      <section className="contactContenedorCss" id="contactContenedorCss"  data-aos="zoom-in-down">
         <ConfigEmail  />
         <IconsSocial
           pageSocial={Url.fb}
