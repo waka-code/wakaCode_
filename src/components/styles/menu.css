@@ -1,66 +1,53 @@
-* {
-    outline: transparent;
-    -webkit-tap-highlight-color: transparent;
-  }
+.nav_toggle {
+  display: none;
+}
 
-  html,
-  body {
-    height: 100%;
+@media (max-width: 1200px) {
+  .nav_toggle {
+    height: 6vh;
   }
-
-  body {
-    margin: 0;
+  .navlist {
+    top: 100px;
+    display: flex;
+    flex-direction: column;
+    background-color: #2b2b28 ;
+    height: -webkit-fill-available;
+    transform: translateY(-0%);
+    transition: 0.3s ease all;
+    position: fixed;
+    line-height: 10vh;
+    height: auto;
+    z-index: 999999999999999999999;
+    border-radius: 10px;
   }
-
-  #menu_checkbox {
+  .nav_items {
+    position: fixed;
+    transform: translateY(-300%);
+  }
+  .nav_items.open {
+    transform: translateY(0);
+  }
+  .nav_toggle {
+    display: flex;
+    flex-direction: column;
+    margin: 15px;
+  }
+  .nav_toggle span {
+    width: 30px;
+    height: 4px;
+    background: #eed849;
+    margin-bottom: 5px;
+    border-radius: 2px;
+    transform-origin: 5px 0px;
+    transition: all 0.2s linear;
+  }
+  .nav_toggle.open > span {
+    transform: rotate(45deg) translate(0px, 0px);
+  }
+  .nav_toggle.open > span:nth-child(2) {
     display: none;
   }
-
-  label {
-    position: absolute;
-    top: 50%;
-    right: 0;
-    left: 0;
-    margin: 0 auto;
-    display: block;
-    width: 30px;
-    height: 30px;
-    transform: translateY(-50%);
-    transition: 0.3s ease transform;
-    cursor: pointer;
+  .nav_toggle.open > span:nth-child(3) {
+    transform: rotate(-45deg) translate(-5px, 1px);
   }
-
-  label div {
-    width: 6px;
-    height: 6px;
-    background-color: #143240;
-    margin-left: 0;
-    margin-bottom: 6px;
-    border-radius: 4px;
-    transition: 0.3s ease width, 0.3s ease margin-left, 0.3s ease margin-bottom,
-      0.3s ease background-color;
-  }
-
-  label div:first-child {
-    width: 22px;
-  }
-
-  label div:nth-child(2) {
-    width: 15px;
-  }
-
-  label div:last-child {
-    width: 30px;
-    margin-bottom: 0;
-  }
-
-  #menu_checkbox:checked + label {
-    transform: translateY(-50%) rotateZ(-90deg);
-  }
-
-  #menu_checkbox:checked + label div {
-    width: 6px;
-    margin-left: 12px;
-    margin-bottom: 3px;
-    background-color: #ffc107;
-  }
+}

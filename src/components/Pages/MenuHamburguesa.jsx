@@ -1,15 +1,14 @@
-import React from "react";
-import '../styles/menu.css'
-function MenuHamburguesa() {
+import "../styles/menu.css";
+function MenuHamburguesa({ isOpen, setIsOpen }) {
   return (
-      <div>
-        <input type="checkbox" id="menu_checkbox" />
-        <label for="menu_checkbox">
-          <div></div>
-          <div></div>
-          <div></div>
-        </label>
-      </div>
+    <div
+      className={`nav_toggle ${isOpen && "open"}`}
+      onClick={() => setIsOpen(!isOpen)}
+    >
+      <span></span>
+      <span></span>
+      <span></span>
+    </div>
   );
 }
 

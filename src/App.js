@@ -16,7 +16,6 @@ function App() {
   const [Loading, setLoading] = useState(true);
   const { t, i18n } = useTranslation();
 
-
   const handleChangeLng = (lng) => {
     i18n.changeLanguage(lng);
     localStorage.setItem("lng", lng);
@@ -38,9 +37,10 @@ function App() {
       ) : (
         <BrowserRouter>
           <div className="App">
-            <RouterNav t={t} handleChangeLng={handleChangeLng}/>
-            <RoutePages t={t}/>
+            <RouterNav t={t} handleChangeLng={handleChangeLng} />
+            <RoutePages t={t} />
           </div>
+          
         </BrowserRouter>
       )}
     </>

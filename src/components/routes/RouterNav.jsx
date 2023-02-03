@@ -1,15 +1,18 @@
-import React from "react";
 import { NavLink } from "react-router-dom";
 
 //img
 import es from "../../img/espana.png";
 import en from "../../img/en.png";
+//css
+import MenuHamburguesa from "../Pages/MenuHamburguesa";
+import React, { useState } from "react";
 
 function RouterNav({ t, handleChangeLng }) {
+  const [isOpen, setIsOpen] = useState(false);
   return (
     <div className="routeCss">
       <h1>wakaCode...</h1>
-      <nav>
+      <nav className={` ${isOpen ? "navlist" : "nav_items"}`}>
         <NavLink className="linkCss linkCssA" to="/home">
           {t("Home")}
         </NavLink>
@@ -29,9 +32,9 @@ function RouterNav({ t, handleChangeLng }) {
       <div id="languaje">
         <img src={es} onClick={() => handleChangeLng("es")} />
         <img src={en} onClick={() => handleChangeLng("en")} />
+        <MenuHamburguesa setIsOpen={setIsOpen} isOpen={isOpen} />
       </div>
     </div>
-    
   );
 }
 
