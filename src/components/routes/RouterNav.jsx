@@ -12,7 +12,10 @@ function RouterNav({ t, handleChangeLng }) {
   return (
     <div className="routeCss">
       <h1>wakaCode...</h1>
-      <nav className={` ${isOpen ? "navlist" : "nav_items"}`}>
+      <nav
+        className={` ${isOpen ? "navlist" : "nav_items"}`}
+        onClick={() => setIsOpen(!isOpen)}
+      >
         <NavLink className="linkCss linkCssA" to="/home">
           {t("Home")}
         </NavLink>

@@ -3,7 +3,6 @@
   padding: 0;
   box-sizing: border-box;
   user-select: none;
-  -webkit-user-select: none;
 }
 ::-webkit-scrollbar {
   display: none;
@@ -49,10 +48,11 @@
 }
 
 .routeCss nav {
-  width: 50vw;
+  width: 60vw;
   font-size: 15px;
   cursor: pointer;
   text-align: center;
+  z-index: 999999999999999999999999999999;
 }
 .linkCss {
   text-decoration: none;
@@ -92,5 +92,19 @@
     width: 100vw;
   }
 
+  .routeCss{
+    justify-content: space-evenly;
+  }
+  
+}
+
+@media(max-width:600px){
+  .routeCss h1{
+    display: none;
+  }
+  .routeCss #languaje{
+    width: 100%;
+    justify-content: space-around;
+  }
   
 }

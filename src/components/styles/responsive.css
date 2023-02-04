@@ -21,7 +21,7 @@
     transform: translate(5rem, 4rem);
   }
   #aboutImg .aboutContent div {
-    top: 27rem;
+    top: 29rem;
     font-size: 20px;
   }
   /*portafolio*/
@@ -58,7 +58,8 @@
   }
   /*About*/
   #aboutImg .aboutContent div {
-    font-size: 14px;
+    top: 16.5rem;
+    width: 100%;
   }
   #aboutImg {
     width: 18vw;
@@ -89,6 +90,8 @@
   }
   #aboutImg .aboutContent div {
     display: flex;
+    font-size: 16px;
+    top: 14.5rem;
   }
   /*home*/
   #welcomePage {
@@ -130,7 +133,7 @@
     width: 80%;
   }
   /*About*/
-  #boxAbout{
+  #boxAbout {
     width: 90%;
   }
   #aboutImg {
@@ -141,8 +144,7 @@
     height: 100%;
     overflow: auto;
   }
-  #boxAbout
-  #btnAnimate{
+  #boxAbout #btnAnimate {
     width: 30%;
   }
 
@@ -248,10 +250,14 @@
     flex-direction: row;
     width: 100%;
   }
-  /*contact*/
-  
-  #boxAbout{
+  /*about*/
+  #boxAbout {
     width: 90%;
+    margin: 0 0 10% 0;
+  }
+  #boxAbout #btnAnimate {
+    width: 100%;
+    color: #ac9440;
   }
   /*contact*/
   .contactCss .contactContenedorCss {
@@ -280,7 +286,7 @@
   #welcomePage h2 {
     font-size: 1.2em;
   }
-  
+
   /*portafolio*/
   #routePortfolioCss {
     width: 100%;
@@ -313,7 +319,7 @@
   }
   /*contact*/
 
-  .contactCss{
+  .contactCss {
     overflow: auto;
   }
   .contactCss #btnAnimate {
@@ -410,5 +416,18 @@
   }
   #wlcome p {
     font-size: 20px;
+  }
+}
+
+@media (max-width: 400px) {
+  /*welcome*/
+  #welcomePage {
+    height: auto;
+  }
+  #welcomePage h3 {
+    font-size: 40px;
+  }
+  #welcomePage h2 {
+    font-size: 12px;
   }
 }
