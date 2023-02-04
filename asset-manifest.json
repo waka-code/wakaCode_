@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/wakaCode_/static/css/main.e74ca70d.css",
-    "main.js": "/wakaCode_/static/js/main.43e9fea4.js",
+    "main.css": "/wakaCode_/static/css/main.482b07cc.css",
+    "main.js": "/wakaCode_/static/js/main.a7f3f60f.js",
     "static/media/astronaut.gif": "/wakaCode_/static/media/astronaut.dc8a10d41fed7b1b8f40.gif",
     "static/media/jsPhone.png": "/wakaCode_/static/media/jsPhone.07a73a3bc900d3720fe6.png",
     "static/media/examen.png": "/wakaCode_/static/media/examen.c198b82a80e3c74838ef.png",
@@ -29,11 +29,11 @@
     "static/media/bt.png": "/wakaCode_/static/media/bt.a6aa5de3b789199b5116.png",
     "static/media/ex.png": "/wakaCode_/static/media/ex.ec0dbeb38d2d5111ff3b.png",
     "index.html": "/wakaCode_/index.html",
-    "main.e74ca70d.css.map": "/wakaCode_/static/css/main.e74ca70d.css.map",
-    "main.43e9fea4.js.map": "/wakaCode_/static/js/main.43e9fea4.js.map"
+    "main.482b07cc.css.map": "/wakaCode_/static/css/main.482b07cc.css.map",
+    "main.a7f3f60f.js.map": "/wakaCode_/static/js/main.a7f3f60f.js.map"
   },
   "entrypoints": [
-    "static/css/main.e74ca70d.css",
-    "static/js/main.43e9fea4.js"
+    "static/css/main.482b07cc.css",
+    "static/js/main.a7f3f60f.js"
   ]
 }
