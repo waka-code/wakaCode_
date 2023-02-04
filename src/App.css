@@ -52,7 +52,6 @@
   font-size: 15px;
   cursor: pointer;
   text-align: center;
-  z-index: 999999999999999999999999999999;
 }
 .linkCss {
   text-decoration: none;
