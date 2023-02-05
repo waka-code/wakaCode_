@@ -86,13 +86,13 @@
     justify-content: space-evenly;
   }
 }
-
+/*
 @media (max-width: 400px) {
   .App {
     height: 110vh;
   }
 }
-
+*/
 @media (max-width: 600px) {
   .routeCss h1 {
     display: none;

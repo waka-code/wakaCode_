@@ -8,7 +8,6 @@ import Url from "../../description/Url.json";
 //react route
 import IconsSocial from "./IconsSocial";
 
-
 //img
 import ln from "../../../img/ln.png";
 import st from "../../../img/st.png";
