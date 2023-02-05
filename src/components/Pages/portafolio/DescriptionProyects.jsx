@@ -1,7 +1,7 @@
 import React from "react";
-import RoutePortfolio from "../routes/RoutePortfolio";
-import "../styles/DescriptionProyects.css";
-import Button from "./Button";
+import RoutePortfolio from "../../routes/RoutePortfolio";
+import "./DescriptionProyects.css";
+import Button from "../btn/Button";
 
 function DescriptionProyects(props) {
   return (

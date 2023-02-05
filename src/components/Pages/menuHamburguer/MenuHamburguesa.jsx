@@ -1,4 +1,4 @@
-import "../styles/menu.css";
+import "./menu.css";
 function MenuHamburguesa({ isOpen, setIsOpen }) {
   return (
     <div

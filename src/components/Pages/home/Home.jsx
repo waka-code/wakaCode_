@@ -1,17 +1,18 @@
 import React from "react";
 import TypeWriterEffect from "react-typewriter-effect";
-import "../styles/Home.css";
+import "./Home.css";
 
 //json
-import Url from "../description/Url.json";
+import Url from "../../description/Url.json";
 
 //react route
 import IconsSocial from "./IconsSocial";
 
+
 //img
-import ln from "../../img/ln.png";
-import st from "../../img/st.png";
-import git from "../../img/git.png";
+import ln from "../../../img/ln.png";
+import st from "../../../img/st.png";
+import git from "../../../img/git.png";
 
 function Home({ t }) {
   return (

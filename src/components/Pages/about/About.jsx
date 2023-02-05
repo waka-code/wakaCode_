@@ -1,14 +1,15 @@
 import React from "react";
 
 //json
-import Url from "../description/Url.json";
+import Url from "../../description/Url.json";
 
 //css
-import "../styles/About.css";
+import "./About.css";
 
 //img
-import henry from "../../img/henry.png";
-import Button from "./Button";
+import henry from "../../../img/henry.png";
+import Button from "../btn/Button";
+
 
 function About({ t }) {
   return (

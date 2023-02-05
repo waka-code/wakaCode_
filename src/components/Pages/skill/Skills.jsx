@@ -1,7 +1,7 @@
 import React from "react";
-import RouteSkill from "../routes/RouteSkill";
-import "../styles/Skill.css";
-import waka from "../../img/wakatime.png";
+import RouteSkill from "../../routes/RouteSkill";
+import "./Skill.css";
+import waka from "../../../img/wakatime.png";
 import Box from "./Box";
 
 function Skills(props) {

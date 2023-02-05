@@ -1,10 +1,10 @@
-import Button from "./Button";
+import Button from "../btn/Button";
 import React, { useRef } from "react";
 import emailjs from "@emailjs/browser";
 import { useState } from "react";
 import "react-toastify/dist/ReactToastify.css";
 import { useTranslation } from "react-i18next";
-import { success, warning } from "./ConfigToastify";
+import { success, warning } from "../home/ConfigToastify";
 
 function ConfigEmail() {
   const { t } = useTranslation();

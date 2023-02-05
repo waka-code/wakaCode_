@@ -2,15 +2,15 @@ import React from "react";
 import { NavLink } from "react-router-dom";
 
 //json and routePages
-import Url from "../description/Url.json";
-import IconsSocial from "./IconsSocial";
+import Url from "../../description/Url.json";
+import IconsSocial from "../home/IconsSocial";
 
 //img and css
-import welcome from "../../img/wlcome.gif";
-import fb from "../../img/fb.png";
-import ws from "../../img/ws.png";
-import ins from "../../img/in.png";
-import "../styles/welcome.css";
+import welcome from "../../../img/wlcome.gif";
+import fb from "../../../img/fb.png";
+import ws from "../../../img/ws.png";
+import ins from "../../../img/in.png";
+import "./welcome.css";
 
 //react icons
 import { FaLaptopCode } from "react-icons/fa";

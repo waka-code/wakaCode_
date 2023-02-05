@@ -16,12 +16,12 @@ import examen from "../../img/examen.png"
 //json
 import Url from "../description/Url.json";
 //Routes
-import About from "../Pages/About";
-import Home from "../Pages/Home";
-import Skills from "../Pages/Skills";
-import Contact from "../Pages/Contact";
-import Welcome from "../Pages/Welcome";
-import DescriptionProyects from "../Pages/DescriptionProyects";
+import About from "../Pages/about/About";
+import Home from "../Pages/home/Home";
+import Skills from "../Pages/skill/Skills";
+import Contact from "../Pages/contact/Contact";
+import Welcome from "../Pages/welcome/Welcome";
+import DescriptionProyects from "../Pages/portafolio/DescriptionProyects";
 
 function RoutePage({ t }) {
   return (

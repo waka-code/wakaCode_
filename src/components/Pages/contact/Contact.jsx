@@ -1,16 +1,16 @@
-import IconsSocial from "./IconsSocial";
+import IconsSocial from "../home/IconsSocial";
 //img
-import fb from "../../img/fb.png";
-import ws from "../../img/ws.png";
-import ins from "../../img/in.png";
+import fb from "../../../img/fb.png";
+import ws from "../../../img/ws.png";
+import ins from "../../../img/in.png";
 
 //json
-import Url from "../description/Url.json";
+import Url from "../../description/Url.json";
 
 //css
-import "../styles/Contact.css";
+import "./Contact.css";
 import ConfigEmail from "./ConfigEmail";
-import ConfigToastify from "./ConfigToastify";
+import ConfigToastify from "../home/ConfigToastify";
 
 function Contact({ t }) {
   return (

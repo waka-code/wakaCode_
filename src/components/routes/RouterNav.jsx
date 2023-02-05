@@ -4,7 +4,7 @@ import { NavLink } from "react-router-dom";
 import es from "../../img/espana.png";
 import en from "../../img/en.png";
 //css
-import MenuHamburguesa from "../Pages/MenuHamburguesa";
+import MenuHamburguesa from "../Pages/menuHamburguer/MenuHamburguesa";
 import React, { useState } from "react";
 
 function RouterNav({ t, handleChangeLng }) {
