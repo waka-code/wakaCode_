@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/wakaCode_/static/css/main.482b07cc.css",
-    "main.js": "/wakaCode_/static/js/main.c09a0971.js",
+    "main.js": "/wakaCode_/static/js/main.77aabe30.js",
     "static/media/astronaut.gif": "/wakaCode_/static/media/astronaut.dc8a10d41fed7b1b8f40.gif",
     "static/media/jsPhone.png": "/wakaCode_/static/media/jsPhone.07a73a3bc900d3720fe6.png",
     "static/media/examen.png": "/wakaCode_/static/media/examen.c198b82a80e3c74838ef.png",
@@ -30,10 +30,10 @@
     "static/media/ex.png": "/wakaCode_/static/media/ex.ec0dbeb38d2d5111ff3b.png",
     "index.html": "/wakaCode_/index.html",
     "main.482b07cc.css.map": "/wakaCode_/static/css/main.482b07cc.css.map",
-    "main.c09a0971.js.map": "/wakaCode_/static/js/main.c09a0971.js.map"
+    "main.77aabe30.js.map": "/wakaCode_/static/js/main.77aabe30.js.map"
   },
   "entrypoints": [
     "static/css/main.482b07cc.css",
-    "static/js/main.c09a0971.js"
+    "static/js/main.77aabe30.js"
   ]
 }
