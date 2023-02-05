@@ -15,7 +15,7 @@ import git from "../../img/git.png";
 
 function Home({ t }) {
   return (
-    <div className="homeCss">
+    <div className="homeCss" id="homeCss">
       <section className="welcomePage" id="welcomePage" data-aos="fade-right">
         <h3>{t("Hello")}</h3>
         <h3>{t("I am Louis")}..</h3>

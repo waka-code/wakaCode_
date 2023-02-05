@@ -6,7 +6,7 @@ import Button from "./Button";
 function DescriptionProyects(props) {
   return (
     <>
-      <section className="proyectsDescriptions">
+      <section className="proyectsDescriptions" id="proyectsDescriptions">
         <section className="portafolio">
           <section className="proyectLogo" data-aos="fade-right">
             <img src={props.img} alt={props.alt} />

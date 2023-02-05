@@ -286,22 +286,28 @@
   #welcomePage h2 {
     font-size: 1.2em;
   }
+  .homeCss
+  .iconsPages a {
+    margin: 5px;
+  }
+
+  #boxAbout{
+    margin: 0 0 20% 0;
+  }
 
   /*portafolio*/
   #routePortfolioCss {
     width: 100%;
-    position: absolute;
-    align-items: center;
-    height: 70%;
-    top: 25rem;
+    height: 100vh;
+    top: 9rem;
     overflow: auto;
   }
 
-  .proyectsDescriptions {
-    position: relative;
-    display: flex;
-    justify-content: center;
-    text-align: center;
+  #proyectsDescriptions {
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    justify-items:center;
+    overflow: auto;
   }
   #routePortfolioCss img {
     margin: auto;
@@ -311,11 +317,14 @@
   .proyectsDescriptions #btnAnimate {
     height: auto;
     color: rgb(0, 0, 0);
-    z-index: 999;
   }
 
   .proyectsDescriptions .proyectLogo {
-    height: 30%;
+    height: 100%;
+    width: auto;
+  }
+  .proyectsDescriptions .proyectLogo img{
+    height: 100%;
   }
   /*contact*/
 
@@ -341,13 +350,12 @@
 
 @media (max-width: 600px) {
   /*home*/
-  .homeCss {
-    height: auto;
-  }
   #welcomePage {
     width: 100%;
   }
   .homeCss .iconsPages {
+    display: flex;
+    flex-direction: column;
     width: 100%;
   }
   #welcomePage h3 {
@@ -402,9 +410,9 @@
     width: 55%;
     margin: 25px 50px;
   }
-  /*portafolio*/
-  #routePortfolioCss {
-    top: 20rem;
+  /*portfolio*/
+  #routePortfolioCss img {
+    width: 90%;
   }
 }
 
@@ -430,4 +438,13 @@
   #welcomePage h2 {
     font-size: 12px;
   }
+  #proyectsDescriptions{
+    margin: 0 0 130px 0;
+  }
+  
+  #boxAbout{
+    margin: 0 0 60% 0;
+  }
 }
+
+
