@@ -1,8 +1,7 @@
 .proyectsDescriptions {
   width: 100%;
-  height: 90vh;
+  height: 90%;
   display: flex;
-  overflow: hidden;
 }
 
 .proyectLogo {

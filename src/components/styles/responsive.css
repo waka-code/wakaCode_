@@ -227,6 +227,7 @@
   }
   #wlcome {
     width: 75%;
+    margin: auto;
   }
   /*home*/
   #welcomePage {
@@ -301,6 +302,7 @@
     height: 100vh;
     top: 9rem;
     overflow: auto;
+
   }
 
   #proyectsDescriptions {
@@ -329,19 +331,16 @@
     height: 90%;
   }
 
+  #proyectsDescriptions
   #routePortfolioCss {
     position: relative;
     top: 45px;
+    overflow:none;
   }
   #routePortfolioCss .projectsPortfolio {
     height: 30%;
   }
-
   /*contact*/
-
-  .contactCss {
-    overflow: auto;
-  }
   .contactCss #btnAnimate {
     width: 95%;
   }
@@ -444,23 +443,23 @@
   #homeCss #welcomePage h3 {
     color: #a5943a;
   }
-  /*welcome*/
+  /*wlcome*/
   #wlcome {
-    width: 95%;
+    width: 98%;
     height: auto;
   }
   #wlcome p {
     font-size: 20px;
-    padding: 10px;
   }
   .welcomeCss #iconsPages {
     height: auto;
     display: grid;
     grid-template-columns: repeat(1, 1fr);
   }
+ 
   #wlcome #iconsPages a {
     width: 90%;
-    margin: 5px auto;
+    margin: 3px auto;
   }
   #boxAbout {
     height: 75vh;
