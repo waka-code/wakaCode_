@@ -28,7 +28,7 @@ function RoutePage({ t }) {
     <>
       <Routes>
         <Route path="/" element={<Welcome t={t} />} />
-        {/*<Route path="/wakaCode_" element={<Welcome t={t} />} />*/}
+        {<Route path="/wakaCode_" element={<Welcome t={t} />} />}
         <Route path="/home" element={<Home t={t} />} />
         <Route path="/about" element={<About t={t} />} />
 
@@ -49,7 +49,7 @@ function RoutePage({ t }) {
         />
 
         <Route
-          path="portfolio/rick"
+          path="/portfolio/rick"
           element={
             <DescriptionProyects
               img={rick}
@@ -64,7 +64,7 @@ function RoutePage({ t }) {
         />
 
         <Route
-          path="portfolio/firstPortfolio"
+          path="/portfolio/firstPortfolio"
           element={
             <DescriptionProyects
               img={firstPortfolio}
@@ -79,7 +79,7 @@ function RoutePage({ t }) {
         />
         
         <Route
-          path="portfolio/homePage"
+          path="/portfolio/homePage"
           element={
             <DescriptionProyects
               img={examen}
@@ -94,7 +94,7 @@ function RoutePage({ t }) {
         />
 
         <Route
-          path="portfolio/pokemon"
+          path="/portfolio/pokemon"
           element={
             <DescriptionProyects
               img={pokemon}

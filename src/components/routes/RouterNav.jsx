@@ -19,16 +19,16 @@ function RouterNav({ t, handleChangeLng }) {
         <NavLink className="linkCss linkCssA" to="/home">
           {t("Home")}
         </NavLink>
-        <NavLink className="linkCss linkCssA" to="about">
+        <NavLink className="linkCss linkCssA" to="/about">
           {t("About")}
         </NavLink>
-        <NavLink className="linkCss linkCssA" to="portfolio">
+        <NavLink className="linkCss linkCssA" to="/portfolio">
           {t("Portfolio")}
         </NavLink>
-        <NavLink className="linkCss" to="skills">
+        <NavLink className="linkCss" to="/skills">
           {t("Skills")}
         </NavLink>
-        <NavLink className="linkCss" to="contact">
+        <NavLink className="linkCss" to="/contact">
           {t("Contact")}
         </NavLink>
       </nav>
