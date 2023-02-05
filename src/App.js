@@ -1,6 +1,6 @@
 import "./App.css";
 import "./components/styles/responsive.css";
-import { BrowserRouter } from "react-router-dom";
+import { HashRouter } from "react-router-dom";
 import RouterNav from "./components/routes/RouterNav";
 import RoutePages from "./components/routes/RoutePage";
 import { useState } from "react";
@@ -35,13 +35,13 @@ function App() {
           <img src={loading} alt="loading" />
         </div>
       ) : (
-        <BrowserRouter>
+        <HashRouter>
           <div className="App">
             <RouterNav t={t} handleChangeLng={handleChangeLng} />
             <RoutePages t={t} />
           </div>
           
-        </BrowserRouter>
+        </HashRouter>
       )}
     </>
   );
