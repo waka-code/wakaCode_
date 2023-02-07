@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/wakaCode_/static/css/main.d3d9d555.css",
+    "main.css": "/wakaCode_/static/css/main.08488c1c.css",
     "main.js": "/wakaCode_/static/js/main.c9634da1.js",
     "static/media/astronaut.gif": "/wakaCode_/static/media/astronaut.dc8a10d41fed7b1b8f40.gif",
     "static/media/examen.png": "/wakaCode_/static/media/examen.c198b82a80e3c74838ef.png",
@@ -28,11 +28,11 @@
     "static/media/bt.png": "/wakaCode_/static/media/bt.a6aa5de3b789199b5116.png",
     "static/media/ex.png": "/wakaCode_/static/media/ex.ec0dbeb38d2d5111ff3b.png",
     "index.html": "/wakaCode_/index.html",
-    "main.d3d9d555.css.map": "/wakaCode_/static/css/main.d3d9d555.css.map",
+    "main.08488c1c.css.map": "/wakaCode_/static/css/main.08488c1c.css.map",
     "main.c9634da1.js.map": "/wakaCode_/static/js/main.c9634da1.js.map"
   },
   "entrypoints": [
-    "static/css/main.d3d9d555.css",
+    "static/css/main.08488c1c.css",
     "static/js/main.c9634da1.js"
   ]
 }
