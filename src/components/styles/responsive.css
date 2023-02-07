@@ -459,7 +459,7 @@
  
   #wlcome #iconsPages a {
     width: 90%;
-    margin: 3px auto;
+    margin: 2px auto;
   }
   #boxAbout {
     height: 75vh;
@@ -473,6 +473,10 @@
 }
 
 @media (max-width: 400px) {
+  #wlcome {
+    width: 90%;
+  }
+
   /*welcome*/
   #welcomePage {
     height: auto;
