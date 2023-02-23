@@ -6,9 +6,6 @@ import RoutePages from "./components/routes/RoutePage";
 import { useState } from "react";
 import { useEffect } from "react";
 
-//IMG
-//import loading from "./img/astronaut.gif";
-
 //i18next translate
 import { useTranslation } from "react-i18next";
 
@@ -35,7 +32,7 @@ function App() {
             <img
               src="https://i.postimg.cc/BZrLq9hw/astronaut.gif"
               border="0"
-              alt="astronaut"
+              alt="loading"
             />
         </div>
       ) : (
