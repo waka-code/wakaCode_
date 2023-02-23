@@ -71,13 +71,14 @@
   border-bottom: 2px solid #2e2e2d;
 }
 #languaje {
-  width: 10%;
+  width: 5%;
   display: flex;
   align-items: center;
 }
 
 #languaje img {
   height: 3vh;
+  width: 100%;
   cursor: pointer;
 }
 

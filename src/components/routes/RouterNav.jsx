@@ -33,8 +33,8 @@ function RouterNav({ t, handleChangeLng }) {
         </NavLink>
       </nav>
       <div id="languaje">
-        <img src={es} onClick={() => handleChangeLng("es")} />
-        <img src={en} onClick={() => handleChangeLng("en")} />
+        <img src={es} onClick={() => handleChangeLng("es")} alt="es"/>
+        <img src={en} onClick={() => handleChangeLng("en")} alt="en"/>
         <MenuHamburguesa setIsOpen={setIsOpen} isOpen={isOpen} />
       </div>
     </div>
