@@ -8,6 +8,7 @@
 .welcomeCss .wlcome {
   text-overflow: ellipsis;
   width: 45%;
+  height: auto;
   padding: 20px;
   margin: auto 70px;
   background: #2b2b2840;

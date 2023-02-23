@@ -30,7 +30,7 @@ function App() {
       {Loading ? (
         <div className="loadingCss">
           <img
-            src="https://i.postimg.cc/3NVCHY9F/astronaut-2-min.gif"
+            src="https://i.postimg.cc/BZrLq9hw/astronaut.gif"
             border="0"
             alt="loading"
           />
