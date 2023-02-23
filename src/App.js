@@ -7,7 +7,7 @@ import { useState } from "react";
 import { useEffect } from "react";
 
 //IMG
-import loading from "./img/astronaut.gif";
+//import loading from "./img/astronaut.gif";
 
 //i18next translate
 import { useTranslation } from "react-i18next";
@@ -32,7 +32,11 @@ function App() {
     <>
       {Loading ? (
         <div className="loadingCss">
-          <img src={loading} alt="loading" />
+            <img
+              src="https://i.postimg.cc/BZrLq9hw/astronaut.gif"
+              border="0"
+              alt="astronaut"
+            />
         </div>
       ) : (
         <HashRouter>
@@ -40,7 +44,6 @@ function App() {
             <RouterNav t={t} handleChangeLng={handleChangeLng} />
             <RoutePages t={t} />
           </div>
-          
         </HashRouter>
       )}
     </>
