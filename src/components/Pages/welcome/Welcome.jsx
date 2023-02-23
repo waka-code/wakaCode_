@@ -24,7 +24,7 @@ function Welcome({ t }) {
         data-aos-anchor-placement="top-bottom"
         id="wlcome"
       >
-        <img src={welcome} alt="welcome" className="welcome" />
+        <video src={welcome} alt="welcome" className="welcome" />
         <p>
           {t("welcome")}
           <FaLaptopCode />
