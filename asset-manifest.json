@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/wakaCode_/static/css/main.0445af83.css",
-    "main.js": "/wakaCode_/static/js/main.228ea022.js",
+    "main.css": "/wakaCode_/static/css/main.bca3117f.css",
+    "main.js": "/wakaCode_/static/js/main.b5d4a112.js",
     "static/media/examen.png": "/wakaCode_/static/media/examen.c198b82a80e3c74838ef.png",
     "static/media/henry.png": "/wakaCode_/static/media/henry.e2f4878c686dc5dd6f20.png",
     "static/media/pokemon.jpeg": "/wakaCode_/static/media/pokemon.b01f46fce1645c2c1dd4.jpeg",
@@ -27,11 +27,11 @@
     "static/media/bt.png": "/wakaCode_/static/media/bt.a6aa5de3b789199b5116.png",
     "static/media/ex.png": "/wakaCode_/static/media/ex.ec0dbeb38d2d5111ff3b.png",
     "index.html": "/wakaCode_/index.html",
-    "main.0445af83.css.map": "/wakaCode_/static/css/main.0445af83.css.map",
-    "main.228ea022.js.map": "/wakaCode_/static/js/main.228ea022.js.map"
+    "main.bca3117f.css.map": "/wakaCode_/static/css/main.bca3117f.css.map",
+    "main.b5d4a112.js.map": "/wakaCode_/static/js/main.b5d4a112.js.map"
   },
   "entrypoints": [
-    "static/css/main.0445af83.css",
-    "static/js/main.228ea022.js"
+    "static/css/main.bca3117f.css",
+    "static/js/main.b5d4a112.js"
   ]
 }
