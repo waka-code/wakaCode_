@@ -12,7 +12,10 @@ import jscript from "../../img/jscript.png";
 import firstPortfolio from "../../img/firstPortfolio.png";
 import css from "../../img/iconSkills/css.png";
 import html5 from "../../img/iconSkills/html.png";
-import examen from "../../img/examen.png"
+import examen from "../../img/examen.png";
+import inventario from "../../img/inventario.jpg";
+import c from "../../img/c.png";
+import sql from "../../img/sql.png";
 //json
 import Url from "../description/Url.json";
 //Routes
@@ -36,14 +39,13 @@ function RoutePage({ t }) {
           path="/portfolio"
           element={
             <DescriptionProyects
-              img={rick}
-              repositorio={Url.repositoryRick}
-              description={t("rick")}
-              pages={Url.pageRick}
+              img={pokemon}
+              repositorio={Url.repositoryPokemon}
+              description={t("pokemon")}
+              pages={Url.pagePokemon}
               react={react}
-              axios={styled}
+              axios={axios}
               alt={"proyect"}
-              t={t}
             />
           }
         />
@@ -77,7 +79,7 @@ function RoutePage({ t }) {
             />
           }
         />
-        
+
         <Route
           path="/portfolio/homePage"
           element={
@@ -107,6 +109,21 @@ function RoutePage({ t }) {
             />
           }
         />
+        <Route
+          path="/portfolio/Inventario"
+          element={
+            <DescriptionProyects
+              img={inventario}
+              repositorio={Url.repositoryInventario}
+              description={t("sistemasInventario")}
+              pages={Url.videoInventario}
+              react={c}
+              axios={sql}
+              alt={"proyect"}
+            />
+          }
+        />
+
         <Route
           path="/skills"
           element={
@@ -139,11 +156,12 @@ function RoutePage({ t }) {
           path="/skills/back"
           element={
             <Skills
-              HTML={"SQL"}
-              CSS={"MONGODB"}
-              JAVASCRIPT={"EXPRESS"}
-              TYPESCRIPT={"NODE"}
-              REACTJS={"FIREBASE"}
+              HTML={"C#"}
+              CSS={"SQL"}
+              JAVASCRIPT={"NODE"}
+              TYPESCRIPT={"EXPRESS"}
+              REACTJS={"MONGODB"}
+              SASS={"FIREBASE"}
             />
           }
         />

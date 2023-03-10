@@ -4,6 +4,7 @@ import rick from "../../img/rick.webp";
 import pokemon from "../../img/pokemon.jpeg";
 import firstPortfolio from "../../img/firstPortfolio.png";
 import homepage from "../../img/examen.png";
+import inventario from "../../img/inventario.jpg";
 
 function RoutePortfolio() {
   return (
@@ -19,6 +20,9 @@ function RoutePortfolio() {
       </NavLink>
       <NavLink to="/portfolio/homePage" className="projectsPortfolio">
         <img src={homepage} alt="projects" />
+      </NavLink>
+      <NavLink to="/portfolio/Inventario" className="projectsPortfolio">
+        <img src={inventario} alt="projects" />
       </NavLink>
     </div>
   );

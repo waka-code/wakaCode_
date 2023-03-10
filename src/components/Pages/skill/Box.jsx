@@ -3,13 +3,13 @@ import axios from "../../../img/iconSkills/axios.png";
 import node from "../../../img/iconSkills/node.png";
 import ex from "../../../img/iconSkills/ex.png";
 import mongo from "../../../img/iconSkills/mongo.png";
-import sql from "../../../img/iconSkills/sql.png";
+import sql from "../../../img/sql.png";
 import html from "../../../img/iconSkills/html.png";
 import css from "../../../img/iconSkills/css.png";
 import js from "../../../img/iconSkills/js.png";
 import ts from "../../../img/iconSkills/ts.png";
 import react from "../../../img/iconSkills/react.png";
-import sass from "../../../img/iconSkills/sql.png";
+import sass from "../../../img/iconSkills/sass.png";
 import bt from "../../../img/iconSkills/bt.png";
 import git from "../../../img/iconSkills/git.png";
 import github from "../../../img/iconSkills/github.png";
@@ -18,7 +18,7 @@ import xd from "../../../img/iconSkills/xd.png";
 import rd from "../../../img/rd.png";
 import en from "../../../img/en.png";
 import cr from "../../../img/cr.png";
-
+import c from "../../../img/c.png";
 function Box() {
   return (
     <>
@@ -32,6 +32,9 @@ function Box() {
           </span>
           <span>
             <img src={ex} alt="ex" />
+          </span>
+          <span>
+            <img src={c} alt="c#" />
           </span>
         </section>
 
